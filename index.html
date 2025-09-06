@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Social links profile</title>
+  <style>
+    *{
+          margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color:  hsl(0, 0%, 8%);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: 400;
+    }
+
+    .container{
+      background-color:  hsl(0, 0%, 12%);
+      border-radius: 12px;
+      text-align: center;
+      width: 330px;
+      height: 510px;
+      color: hsl(0, 0%, 100%);
+      padding:2rem;
+    }
+
+    .avatar{
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      margin-bottom: 1rem;
+    }
+    .location{
+      margin-bottom: 1rem;
+      font-size: 14px;
+      color: hsl(75, 94%, 57%);
+    }
+    .description{
+      font-size: 14px;
+      margin-bottom: 1rem;
+    }
+
+    .buttons{
+      flex-direction: column;
+      display: flex;
+      gap:14px;
+    }
+
+   button.btn{
+    cursor: pointer;
+      color: hsl(0, 0%, 100%);
+      background-color:  hsl(0, 0%, 20%); 
+      padding: 12px;
+      border-radius: 5px;
+      border: none;
+      font-weight: 600;
+    }
+
+    button.btn:hover {
+    background-color:hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <img src="assets/images/avatar-jessica.jpeg" alt="Jessica Randall" class="avatar">
+      <h2>Jessica Randall</h2>
+      <p class="location">London, United Kingdom</p>
+      <p class="description">"Front-end developer and avid reader."</p>
+    
+      <div class="buttons">
+        <button class="btn github" >GitHub</button>
+        <button class="btn">Frontend Mentor</button>
+        <button class="btn">LinkedIn</button>
+        <button class="btn">Twitter</button>
+        <button class="btn">Instagram</button>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
